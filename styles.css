@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo claro */
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #a3a4a5; /* Color de fondo oscuro */
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* Color del texto de la marca */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover {
+    color: #222324; /* Color al pasar el ratón */
+  }
+  
+  /* Estilos para la sección del álbum */
+  .album {
+    padding: 5rem 0;
+    background-color: #c0c2c5; /* Color de fondo claro */
+  }
+  
+  /* Estilos para las tarjetas */
+  .card {
+    border-radius: 0.25rem; /* Bordes redondeados suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s; /* Animación suave */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.25rem; /* Mantener bordes redondeados superiores */
+    border-top-right-radius: 0.25rem;
+    height: auto; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajuste de imagen para que se vea completa */
+   
+  }
+  
+  /* Estilos para el cuerpo de la tarjeta */
+  .card-body {
+    padding: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #6c757d; /* Color de texto gris */
+  }
+  
+  
+  
