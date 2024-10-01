@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Modelo</title>
+   <!-- Bootstrap links CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+        
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tienda Modelo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <!-- Menú desplegable -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos +
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#notebooks">notebooks</a></li>
+                            <li><a class="dropdown-item" href="#Audifonos">Audifonos</a></li>
+                            <li><a class="dropdown-item" href="#iphone">iPhone</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<!-- Sección iPhone -->
+<section id="iphone">
+   <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">iPhone</h1>
+            <p class="lead text-muted">En esta sección verás las mejores ofertas en teléfonos.</p>
+        </div>
+    </div>
+   </section>
+</section>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="iphone 16.jpg" class="card-img-top" alt="Descripción de la imagen 1">
+                    <div class="card-body">
+                        <p class="card-text">iPhone 16. Color violeta.</p>
+                        <small class="text-muted">1TB de almacenamiento interno</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="iphone 15.jpg" class="card-img-top" alt="Descripción de la imagen 2">
+                    <div class="card-body">
+                        <p class="card-text">iPhone 15. Color negro.</p>
+                        <small class="text-muted">256GB de almacenamiento interno</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="iphone 13.jpg" class="card-img-top" alt="Descripción de la imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">iPhone 13. Color verde aqua.</p>
+                        <small class="text-muted">128GB de almacenamiento interno</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sección Audífonos -->
+<section id="Audifonos">
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Audífonos</h1>
+            <p class="lead text-muted">Mejores ofertas en audífonos.</p>
+        </div>
+    </div>
+   </section>
+</section>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="airpods 2.jpg" class="card-img-top" alt="Descripción de la imagen 2">
+                    <div class="card-body">
+                        <p class="card-text">AirPods Pro 3ra generación.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="airpods.jpg" class="card-img-top" alt="Descripción de la imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">AirPods Max azul marino.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="earpods ficha iphone.jpg" class="card-img-top" alt="Descripción de la imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">Earpods lightning ficha iphone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sección Audífonos -->
+<section id="notebooks">
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">notebooks</h1>
+            <p class="lead text-muted">Mejores ofertas en notebooks.</p>
+        </div>
+    </div>
+   </section>
+</section>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3 row-cols-lg-4 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="macbook air 13 m1.webp" class="card-img-top" alt="Descripción de la imagen 2">
+                    <div class="card-body">
+                        <p class="card-text">macbook air 13 m1</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="macbook pro 14inch.jpg" class="card-img-top" alt="Descripción de la imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">macbook 14 inch .</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="macbook-air-13-m3-8-cpu-8-gpu-256gb-azul-medianoche.jpg" class="card-img-top" alt="Descripción de la imagen 3">
+                    <div class="card-body">
+                        <p class="card-text">macbook air 13 256gb azul medianoche</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+</body>
+</html>
